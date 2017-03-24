@@ -87,8 +87,15 @@ In This Side You have more than one way to modify your data ( Statistic , Matrix
       ~~~~
     
     2. Sample Vector : 
-      - It is a function that allowed you to take observation or sample from Vector .
-       
+      - It is a function that allowed you to take observation or sample from Vector 
+        ~~~~
+        SampleVector = function ( FromRow , ToRow ) : and return all Obesravation that you select it .
+        Vector = [1,2,3,4,5]
+        DataPrepare.Matrix(Matrix)
+        DataPrepare.SampleMatrix(1 , 4)
+        it will generat :
+        [2,3,4,5]
+        ~~~~
     3. Log :
       - It is Function that get the logarithm of every element in the Input Vector we use it to Dumbain the values to use it in         Scale Class See Chartslab-Scale .
           * DataPrepare.log() .
