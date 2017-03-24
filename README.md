@@ -83,6 +83,7 @@ In This Side You have more than one way to modify your data ( Statistic , Matrix
       Will generate :
       [2,4,6,8]
       ~~~~
+      ---------
  3. Data Prepare File (Class ) : 
   - It is Consists of all Data Sampling and Ratio and mesurments of Data and Difference that allow you to get in Our Core for bulding this Tool . (We need to talk about glyph which you will know it very much in ChartsLab-Geometry class .
     1. Sample Matrix :
