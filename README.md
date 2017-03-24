@@ -28,6 +28,16 @@ In This Side You have more than one way to modify your data ( Statistic , Matrix
       Will generate :
       [[1,0,0],[0,2,0],[0,0,3]].
       ~~~~
+     4. MatrixMaker :
+      - It is Function that take **Atleast ** Two Vectors and combine them and get matrix of them .
+      ~~~~
+      MatrixMaker = function(Vector_1 , Vector_2 , .... , Vector_n ) : return matrix of [Vector_1 , Vector_2 , ... , Vector_n] .
+      Vector1 = [1,2,4,5]
+      Vector2= [3,4,5,6]
+      MatrixGen.MatrixMaker(Vector1,Vector2 ).
+      it will generate :
+      [[1,3],[2,4],[4,5],[5,6]]
+      ~~~~
       ------
  2. Matrix Operation File (Class) :
   - It is Consists of all Matrix and Vectors Operations like :
