@@ -97,25 +97,7 @@ In This Side You have more than one way to modify your data ( Statistic , Matrix
         [2,3,4,5]
        ~~~~
     
-    3. Log :
-      - It is Function that get the logarithm of every element in the Input Vector we use it to Dumbain the values to use it in Scale Class See Chartslab-Scale .
-          * DataPrepare.log().
-    
-    4. Sort : 
-      - It is Function that sort the Vectro in Ascending way  .
-    
-        * DataPrepare.Sort()
-    
-    
-    5. Division :
-      - It is Function that allowed you to Divaied every element in the Vector in the division Parameter .
-        *   Divation(Vector , division Parameter ) : return Vector After division  . 
- 
-   
-    6. Margine :
-      - It is Function that get the percentage of every row in the Matrix this Function that make the Glyph Histogram .
- 
-          * Margine = function( Matrix ) : it return the The Percentage Matrix .
+   afasfasfas
     
       
       
