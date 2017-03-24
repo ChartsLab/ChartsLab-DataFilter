@@ -85,36 +85,38 @@ In This Side You have more than one way to modify your data ( Statistic , Matrix
       it will generat :
       [[1,2],[3,5]]
       ~~~~
+    
     2. Sample Vector : 
       - It is a function that allowed you to take observation or sample from Vector .
         ~~~~
         SampleVector = function ( FromRow , ToRow ) : and return all Obesravation that you select it .
-      Vector = [1,2,3,4,5]
-      DataPrepare.Matrix(Matrix)
-      DataPrepare.SampleMatrix(1 , 4)
-      it will generat :
-      [2,3,4,5]
-      ~~~~
+        Vector = [1,2,3,4,5]
+        DataPrepare.Matrix(Matrix)
+        DataPrepare.SampleMatrix(1 , 4)
+        it will generat :
+        [2,3,4,5]
+       ~~~~
+    
     3. Log :
       - It is Function that get the logarithm of every element in the Input Vector we use it to Dumbain the values to use it in Scale Class See Chartslab-Scale .
-      ~~~~
-      DataPrepare.log().
-      ~~~~
+          * DataPrepare.log().
+    
     4. Sort : 
-      - It is Function that sort the Vectro in Ascending way  . 
-      ~~~~
-      DataPrepare.Sort()
-      ~~~~
+      - It is Function that sort the Vectro in Ascending way  .
+    
+        * DataPrepare.Sort()
+    
+    
     5. Division :
       - It is Function that allowed you to Divaied every element in the Vector in the division Parameter .
-      ~~~~
-      Divation(Vector , division Parameter ) : return Vector After division  .
-      ~~~~
+        *   Divation(Vector , division Parameter ) : return Vector After division  . 
+ 
+   
     6. Margine :
       - It is Function that get the percentage of every row in the Matrix this Function that make the Glyph Histogram .
-      ~~~~
-      Margine = function( Matrix ) : it return the The Percentage Matrix .
-      ~~~~
+ 
+          * Margine = function( Matrix ) : it return the The Percentage Matrix .
+    
       
       
       
