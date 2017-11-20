@@ -8,7 +8,7 @@ You can Download the latest release. You can also load directly from charts-lab.
   ```js
   <script src="./DirectoryFile/DataStructure.js"></script>
   <script>
-    var df = new Table();
+    var df = new DataStruct();
   </script>
   ```
 
@@ -42,6 +42,8 @@ it takes a string in csv, tsv, JSON (coming soon) and transform it to a tabular 
   * **names**: if you put names for dataset columns. **Optional**
     
   ```js
+  var DataSet_String = "1,Foo,42\n2,Bar,33";
+  
   var Ds = new DataStruct();
   Ds.ParseFrame({
       data: DataSet_String,
