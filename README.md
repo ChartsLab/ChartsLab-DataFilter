@@ -21,28 +21,70 @@ You can Download the latest release. You can also load directly from charts-lab.
 ## Data
 
 In this Class all we care about is how to get the data in a simplest form and with less cost, So this class including method like:
-* ParseFrame (options)
+### ParseFrame (options)
 it takes a string in csv, tsv, JSON (coming soon) and transform it to a tabular data structure that can be manipulated and make operation in it.
 
 **Parameters**: JSON OBJECT
+
     * **data**: contain string taken from csv, tsv, JSON (coming soon) files.
-    * **lineDel**: Line Delemeter if CSV file.
-    * **cellDel**: Cell Delemeter if CSV file.
-    * **header**: Boolean indicates if header exist in data files.
-    * **names**: if you put names for dataset columns.
+    * **lineDel**: Line Delemeter if CSV file. **Optional**
+    * **cellDel**: Cell Delemeter if CSV file. **Optional**
+    * **header**: Boolean indicates if header exist in data files. **Optional**
+    * **names**: if you put names for dataset columns. **Optional**
+    
   ```js
   var Ds = new DataStruct();
   Ds.ParseFrame({
       data: DataSet_String,
+      lineDel: '\n',
+      cellDel: ',',
+      header: False,
+      names: ['id', 'name', 'age']
   });
   console.log(Ds.Frame());
   ```
 
-* RowNum
-* ColNum
-* Frame
-* GetColumn
-* GetRow
-* Shape
-* Describe
-* Info
+### RowsCount
+Return Rows count of the dataframe. 
+**no parameters**, and **return a number**
+```js
+ console.log(Ds.RowsCount());
+```
+
+### ColsCount
+Return Columns count of the dataframe. 
+**no parameters**, and **return a number**
+```js
+ console.log(Ds.ColsCount());
+```
+
+### Frame
+Return the DataFrame in in a 2D Array.
+**no parameters**, and **return a 2D Array**
+
+### GetColumn
+Getting the **DataFrame** Specific Column, default is **Count** Column
+```js
+Ds.GetColumn(ColumnName)
+```
+
+### GetRow
+Getting the **DataFrame** Specific number of Rows, default is **0** `(First Row)`
+```js
+Ds.GetRow(ColumnName)
+```
+
+### Header
+Getting the **DataFrame** *First* number of Rows, default is `5`
+```js
+     var df = new DataStruct();
+     df.ParseFrame(options)
+     df.Header(); \\ Returns Data
+```
+
+### Shape
+Getting the **DataFrame** Shape or Dimension (ColNum, RowNum)
+**no parameters**, and **returns Array**
+
+### Info
+Returning a **DataFrame** Info
