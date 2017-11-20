@@ -45,37 +45,37 @@ it takes a string in csv, tsv, JSON (coming soon) and transform it to a tabular 
   console.log(Ds.Frame());
   ```
 
-### RowsCount
+### RowsCount()
 Return Rows count of the dataframe. 
 **no parameters**, and **return a number**
 ```js
  console.log(Ds.RowsCount());
 ```
 
-### ColsCount
+### ColsCount()
 Return Columns count of the dataframe. 
 **no parameters**, and **return a number**
 ```js
  console.log(Ds.ColsCount());
 ```
 
-### Frame
+### Frame()
 Return the DataFrame in in a 2D Array.
 **no parameters**, and **return a 2D Array**
 
-### GetColumn
+### GetColumn(ColName)
 Getting the **DataFrame** Specific Column, default is **Count** Column
 ```js
 Ds.GetColumn(ColumnName)
 ```
 
-### GetRow
+### GetRow(RowNum)
 Getting the **DataFrame** Specific number of Rows, default is **0** `(First Row)`
 ```js
-Ds.GetRow(ColumnName)
+Ds.GetRow(RowNum)
 ```
 
-### Header
+### Header(RowNums)
 Getting the **DataFrame** *First* number of Rows, default is `5`
 ```js
      var df = new DataStruct();
@@ -83,9 +83,9 @@ Getting the **DataFrame** *First* number of Rows, default is `5`
      df.Header(); \\ Returns Data
 ```
 
-### Shape
+### Shape()
 Getting the **DataFrame** Shape or Dimension (ColNum, RowNum)
 **no parameters**, and **returns Array**
 
-### Info
+### Info()
 Returning a **DataFrame** Info
