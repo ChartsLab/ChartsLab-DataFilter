@@ -15,7 +15,7 @@ You can Download the latest release. You can also load directly from charts-lab.
 # API Reference
 
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#data">Data</a>
-  * <a href="#parseframe">ParseFrame(options)</a>
+  * <a href="#parseframeoptions">ParseFrame</a>
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#search">Search</a>
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#transformation">Transformation</a>
 
