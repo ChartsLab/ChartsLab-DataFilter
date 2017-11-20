@@ -25,7 +25,7 @@ You can Download the latest release. You can also load directly from charts-lab.
   * <a href="#shape">Shape</a>
   * <a href="#info">Info</a>
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#search">Search</a>
-* <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#transformation">Transformation</a>
+* <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#transformations">Transformation</a>
 
 ## Data
 
@@ -99,3 +99,7 @@ Getting the **DataFrame** Shape or Dimension (ColNum, RowNum)
 
 ### Info()
 Returning a **DataFrame** Info
+
+## Search
+
+## Transformations
