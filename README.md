@@ -35,11 +35,11 @@ it takes a string in csv, tsv, JSON (coming soon) and transform it to a tabular 
 
 **Parameters**: JSON OBJECT
 
-    * **data**: contain string taken from csv, tsv, JSON (coming soon) files.
-    * **lineDel**: Line Delemeter if CSV file. **Optional**
-    * **cellDel**: Cell Delemeter if CSV file. **Optional**
-    * **header**: Boolean indicates if header exist in data files. **Optional**
-    * **names**: if you put names for dataset columns. **Optional**
+  * **data**: contain string taken from csv, tsv, JSON (coming soon) files.
+  * **lineDel**: Line Delemeter if CSV file. **Optional**
+  * **cellDel**: Cell Delemeter if CSV file. **Optional**
+  * **header**: Boolean indicates if header exist in data files. **Optional**
+  * **names**: if you put names for dataset columns. **Optional**
     
   ```js
   var Ds = new DataStruct();
