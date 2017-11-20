@@ -16,6 +16,14 @@ You can Download the latest release. You can also load directly from charts-lab.
 
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#data">Data</a>
   * <a href="#parseframeoptions">ParseFrame</a>
+  * <a href="#rowscount">RowsCount</a>
+  * <a href="#colscount">ColsCount</a>
+  * <a href="#frame">Frame</a>
+  * <a href="#getcolumncolname">GetColumn</a>
+  * <a href="#getrowrownum">GetRow</a>
+  * <a href="#headerrownum">Header</a>
+  * <a href="#shape">Shape</a>
+  * <a href="#info">Info</a>
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#search">Search</a>
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#transformation">Transformation</a>
 
@@ -75,7 +83,7 @@ Getting the **DataFrame** Specific number of Rows, default is **0** `(First Row)
 Ds.GetRow(RowNum)
 ```
 
-### Header(RowNums)
+### Header(RowNum)
 Getting the **DataFrame** *First* number of Rows, default is `5`
 ```js
      var df = new DataStruct();
