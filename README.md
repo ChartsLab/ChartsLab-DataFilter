@@ -15,14 +15,14 @@ You can Download the latest release. You can also load directly from charts-lab.
 # API Reference
 
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#data">Data</a>
-  * <a href="#parseframe">ParseFrame</a>
+  * <a href="#parseframe">ParseFrame(options)</a>
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#search">Search</a>
 * <a href="https://github.com/ChartsLab/ChartsLab-DataFilter/blob/master/README.md#transformation">Transformation</a>
 
 ## Data
 
 In this Class all we care about is how to get the data in a simplest form and with less cost, So this class including method like:
-### ParseFrame (options)
+### ParseFrame(options)
 it takes a string in csv, tsv, JSON (coming soon) and transform it to a tabular data structure that can be manipulated and make operation in it.
 
 **Parameters**: JSON OBJECT
